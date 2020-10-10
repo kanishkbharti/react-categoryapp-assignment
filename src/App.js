@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
 import axios from "axios";
-import CategoryContainer from "./CategoryContainer";
+import CategoryContainer from "./components/CategoryContainer";
 import uuid from "react-uuid";
 import { banners } from "./banners";
-import BannerComponent from "./BannerComponent";
-import Nav from "./Nav";
+import BannerComponent from "./components/BannerComponent";
+import Nav from "./components/Nav";
 
 export default function App() {
   const [categories, setCategories] = useState([]);
